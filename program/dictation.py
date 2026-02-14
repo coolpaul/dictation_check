@@ -172,7 +172,7 @@ def process_file(file_path):
                 data.meeting_type, 
                 data.patient_number,
                 data.patient_sex,
-                data.follow_up_time, 
+                data.relative_fu_phrase, 
                 fu_date_final,
                 data.summary,
                 data.urgency_score if data.urgency_score is not None else "N/A",
